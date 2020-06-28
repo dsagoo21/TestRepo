@@ -1,2 +1,0 @@
-This is my first file
-making changes in file to check add and commit command together

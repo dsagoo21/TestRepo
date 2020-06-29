@@ -1,0 +1,66 @@
+
+package testnew;
+
+import javax.swing.*;
+import java.util.Random; 
+
+
+public class thisClass {
+	
+	public static void main(String[] args)
+	{
+		 // create instance of Random class 
+        Random rand = new Random(); 
+  
+        // Generate random integers in range 0 to 999 
+        int rand_int1 = rand.nextInt(10); 
+        int rand_int2 = rand.nextInt(10); 
+  
+        // Print random integers 
+        System.out.println("Random Integers: "+rand_int1); 
+        
+    
+        
+
+		String[] thisClass = new String[32]; //Initializing an Array with 10 fixed elements
+		
+		thisClass[0] = "Abby";       //Array starts with 0 index 
+		thisClass[1] = "Ahmed";
+		thisClass[2] = "Azeez";
+		thisClass[3] = "Deep";
+		thisClass[4] = "Diming";
+		thisClass[5] = "Ahmed";
+		thisClass[6] = "dongshou";
+		thisClass[7] = "Honorinicy";
+		thisClass[8] = "Jason";
+		thisClass[9] = "Junyu";
+		thisClass[10] = "Kelly";
+		thisClass[11] = "Kinjan";
+		thisClass[12] = "Kunli";
+		thisClass[13] = "Umar";
+		thisClass[14] = "Oaz";
+		thisClass[15] = "PQ";
+		thisClass[16] = "Prithviatani";
+		thisClass[17] = "Richard";
+		thisClass[18] = "Sahil";
+		thisClass[19] = "Samuel";
+		thisClass[20] = "Scott";
+		thisClass[21] = "Shahbaz";
+		thisClass[22] = "Shahriar";
+		thisClass[23] = "Shakur";
+		thisClass[24] = "Shrina";
+		thisClass[25] = "Siyu Qui";
+		thisClass[26] = "Siyu Lei";
+		thisClass[27] = "Sumid";
+		thisClass[28] = "Tao";
+		thisClass[29] = "Trivedi Akshay";
+		thisClass[30] = "Yan";
+		thisClass[31] = "ZhaoSaitong";
+		
+		System.out.println("******** Random Name ********");
+		System.out.println(thisClass[rand_int1]);
+	
+		
+		JOptionPane.showMessageDialog(null,thisClass[rand_int1],"",JOptionPane.INFORMATION_MESSAGE);
+	}
+}

@@ -1,5 +1,7 @@
 package com.flexon.java;
 
+import javax.swing.JOptionPane;
+
 public class ClassName {
     public static void main(String[] args){
         System.out.println("hello world");
@@ -8,6 +10,7 @@ public class ClassName {
         //Generate random value
         int rand = (int) (Math.random()*9);
         System.out.println(thisClass[rand]);
+        JOptionPane.showMessageDialog(null, thisClass[rand]);
 
     }
 }
